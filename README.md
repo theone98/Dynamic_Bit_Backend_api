@@ -1,4 +1,4 @@
-# Dynamic_Bit_Backend_api
+# Dynamic_Bit_Backend
 
 1.For every api request  checkToken Middleware is used to
 authenticate Valid API Request.
