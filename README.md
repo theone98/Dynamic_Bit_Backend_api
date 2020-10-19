@@ -5,7 +5,7 @@ authenticate Valid API Request.
 
 2.Since API url are authenticated so to fetch API urls on front-end side make sure to get valid *JWT* .
 
-3.http://yourlocalhosturl/api/user_details  is API url to user details  of every employee.
+3.http://<yourlocalhosturl>/api/user_details  is API url to user details  of every employee.
 
 4.http://yourlocalhosturl/api/user_details/:id  is API url to  details of a particular employee based on id.
 
