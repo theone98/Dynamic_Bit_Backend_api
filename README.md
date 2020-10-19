@@ -15,4 +15,4 @@ authenticate Valid API Request.
 
 7.Dependencies required are express,mysql,jsonwebtoken,cors.
 
-8.Data-base was created through code but all the data tables creation and data insertion was done  manually from *MariaDB* to the local system as it was easier that way rather than through code, so make sure to first add the data to the data-base through mariadb first. 
+8.Data-base was created through code but all the data tables creation and data insertion was done  manually from *MariaDB* on the local system as it was easier that way rather than through code, so make sure to first add the data to the data-base through mariadb first. 
