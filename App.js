@@ -41,7 +41,7 @@ app.get('/api/user_auth_types',verifyToken,(req,res) => {
 		if(err) throw err;
 
 		console.log(results);
-		res.send(results);
+		res.send('succesful GET request' );
 	});}
 });
 });
@@ -60,7 +60,7 @@ app.get('/api/user_auth_types/:id',verifyToken,(req,res) => {
 		if(err) throw err;
 
 		console.log(results);
-		res.send(results);
+		res.send('succesful GET request');
 	});
 	}
   });
@@ -78,7 +78,7 @@ app.get('/api/user_details',verifyToken,(req,res) => {
 		if(err) throw err;
 
 		console.log(results);
-		res.send(results);
+		res.send('succesful GET request');
 	});}
 });
 });
@@ -114,7 +114,7 @@ app.get('/api/user_details/:id',verifyToken,(req,res) => {
 		if(err) throw err;
 
 		console.log(results);
-		res.send(results);
+		res.send('succesful GET request');
 	});
 	}
   });
